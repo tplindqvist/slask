@@ -6,6 +6,7 @@ class Program
     {
         Console.WriteLine("Hello, Git!");
         Console.WriteLine(DoSomething("Tobias"));
+        Console.WriteLine(DoSomething("Nisse did a bad choise"));
     }
 
     static string DoSomething(string name)
